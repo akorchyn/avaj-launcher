@@ -1,3 +1,3 @@
 #! /usr/bin/bash
 
-rm -rf avaj-launcher/*.class
+rm -rf avaj_launcher/*.class

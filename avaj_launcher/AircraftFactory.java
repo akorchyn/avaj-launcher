@@ -1,6 +1,6 @@
 package avaj_launcher;
 
-public class AircraftFactory {
+public abstract class AircraftFactory {
 
     static public Flyable newAircraft(String type, String name,
                                       int longitude, int latitude, int height) throws AvajException {
