@@ -7,5 +7,9 @@ To use run:
 ```
 ./run.sh file
 ```
+To delete class files run:
+```
+./clean.sh
+```
 
 ![alt text](avaj_uml.jpg)
