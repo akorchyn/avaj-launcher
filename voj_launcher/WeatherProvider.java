@@ -1,3 +1,4 @@
+package voj_launcher;
 import java.util.Random;
 
 public class WeatherProvider {

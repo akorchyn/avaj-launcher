@@ -1,3 +1,5 @@
+package voj_launcher;
+
 public class AircraftFactory {
 
     static public Flyable newAircraft(String type, String name,

@@ -1,3 +1,5 @@
+package voj_launcher;
+
 public class AvajException extends Exception {
     private String errorMessage;
 

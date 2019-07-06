@@ -1,3 +1,5 @@
+package voj_launcher;
+
 public class Helicopter extends Aircraft implements Flyable {
 
     private WeatherTower weatherTower;

@@ -1,3 +1,5 @@
+package voj_launcher;
+
 public class Coordinates {
     private int longitude = 0;
     private int latitude = 0;

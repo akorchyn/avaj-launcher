@@ -1,3 +1,4 @@
+package voj_launcher;
 import java.io.*;
 
 public class Main {
