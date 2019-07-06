@@ -1,4 +1,4 @@
-package voj_launcher;
+package avaj_launcher;
 
 public class Coordinates {
     private int longitude = 0;

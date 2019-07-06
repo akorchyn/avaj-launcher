@@ -1,10 +1,10 @@
-package voj_launcher;
+package avaj_launcher;
 
-public class JetPlane extends Aircraft implements Flyable {
+public class Baloon extends Aircraft implements Flyable {
 
     private WeatherTower weatherTower;
 
-    JetPlane(String name, Coordinates coordinates) {
+    Baloon(String name, Coordinates coordinates) {
         super(name, coordinates);
     }
 
@@ -14,21 +14,21 @@ public class JetPlane extends Aircraft implements Flyable {
         String msg = new String();
         switch (weather) {
             case ("SUN"):
-                coordinates.updateLatitude(10);
-                coordinates.updateHeight(2);
-                msg = "Finally, weather is good";
+                coordinates.updateLongitude(2);
+                coordinates.updateHeight(4);
+                msg = "Excellent weather to fly";
                 break;
             case ("RAIN"):
-                coordinates.updateLatitude(5);
-                msg = "I hope, it isn't thunderstorm";
+                coordinates.updateHeight(-5);
+                msg = "Weather is bad. We are landing";
                 break;
             case ("FOG"):
-                coordinates.updateLatitude(1);
-                msg = "Do you see something?";
+                coordinates.updateHeight(-3);
+                msg = "Landing procedure is started";
                 break;
             case ("SNOW"):
-                coordinates.updateHeight(-7);
-                msg = "Mayday, mayday, to much snowing";
+                coordinates.updateHeight(-15);
+                msg = "Why i fly in such weather?";
         }
         this.logMessage(msg);
         if (coordinates.getHeight() == 0)

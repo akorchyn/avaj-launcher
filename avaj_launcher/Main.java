@@ -1,4 +1,4 @@
-package voj_launcher;
+package avaj_launcher;
 import java.io.*;
 
 public class Main {
