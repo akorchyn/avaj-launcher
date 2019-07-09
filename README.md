@@ -1,7 +1,7 @@
 # avaj-launcher
 
 Introducing to JAVA in 42 school. You have to implement UML.
-See more details in pdf. 
+If you want more details - check the attached pdf. 
 
 To use run:
 ```
